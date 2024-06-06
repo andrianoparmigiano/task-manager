@@ -1,0 +1,25 @@
+.todo-item {
+    width: 100%;
+    align-items: start;
+
+    & .actions {
+        margin-left: auto;
+    }
+
+    & .ant-checkbox + span {
+        display: block;
+        width: 100%;
+        max-width: 96%;
+    }
+
+    & .desc {
+        max-width: 65%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &.checked {
+        color: gray;
+        text-decoration: line-through;
+    }
+}

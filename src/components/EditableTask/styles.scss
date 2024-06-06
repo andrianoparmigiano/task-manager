@@ -1,0 +1,7 @@
+.input-desc {
+    padding: 4px 8px 4px 0px;
+
+    & > .ant-input-prefix {
+        margin-inline-end: 8px;
+    }
+}
